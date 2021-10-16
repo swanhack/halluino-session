@@ -3,7 +3,7 @@ Hello everyone!<br>
 Today we will get you started with programming arduinos to make something cool with pumpkins and RGB strips.<br>
 This is a basic course that requires absolutely no programming knowledge, and so anyone is welcome!<br>
 The layout is as follows:
-1. Basics about programming, electronics and arduinos
+1. [Basics about programming](https://github.com/swanhack/halluino-session/blob/main/README.md#basics-about-programming)
 2. How to set up your arduino
 3. Cycling through light patterns I've programmed
 4. Making your own light patterns 
