@@ -45,3 +45,8 @@ Let's take a look at our previous example, but with two additional lines:
 Please note that this is an **extremely** simplified tutorial of programming<br>
 You can naturally do a lot more with programming and control flow, this is just a starting point to get you comfortable with the basics!<br>
 If something is not working, you would like something to be explained, or you want to know how to do something specific, don't hesitate to ask!<br>
+
+## Setting up your Arduino
+### Some basics
+#### How does a breadboard work?
+![breadboard basics](http://www.toptechboy.com/wp-content/uploads/2014/06/pc-board.jpg)
