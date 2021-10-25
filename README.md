@@ -8,10 +8,11 @@ The layout is as follows:
 3. Cycling through light patterns I've programmed
 4. Making your own light patterns 
 <br>
-Note, folks who know how to do all this stuff should head to THIS LINK THAT WILL DEFINITELY EXIST IN THE FUTURE <br>
+Note, folks who know how to do all this stuff can instead play around with some of the sensors I hopefully brought with me<br>
 
-## Basics about Programming
-### Code execution
+## Some Basics
+### Basics about Programming
+#### Code execution
 Typical code looks like this:
 ```
 1    int x = 4 + 2
@@ -26,7 +27,7 @@ Typical code looks like this:
   - In this case, lets imagine we have a function caled "blinkNumberOfTimes" which allows you to pass in a value, and then it blinks the LEDs that many times.
   - You can pass in a value after by calling its name (i.e. `blinkNumberOfTimes`) followed by an open bracket `(`, the value (e.g. `42` or `x + y`), and then a closed bracket `)`
  
-### Loops
+#### Loops
 Let's take a look at our previous example, but with two additional lines:
 ```
 1    for ( int i = 0; i < 15; i = i + 1) {
@@ -41,12 +42,24 @@ Let's take a look at our previous example, but with two additional lines:
   - If you want the loop to repeat less or more times, just change the `15` to something else!
   - Make sure to specify where you want the loop to end with a closed curly bracket `}` !
 
-### Some important notes
+#### Some important notes
 Please note that this is an **extremely** simplified tutorial of programming<br>
 You can naturally do a lot more with programming and control flow, this is just a starting point to get you comfortable with the basics!<br>
 If something is not working, you would like something to be explained, or you want to know how to do something specific, don't hesitate to ask!<br>
 
-## Setting up your Arduino
-### Some basics
+### Hardware
 #### How does a breadboard work?
-![breadboard basics](http://www.toptechboy.com/wp-content/uploads/2014/06/pc-board.jpg)
+![breadboard basics](http://www.toptechboy.com/wp-content/uploads/2014/06/pc-board.jpg)<br>
+#### What are these funky looking things?
+![N-channel](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.sparkfun.com%2Fr%2F140-140%2Fassets%2Fparts%2F4%2F7%2F7%2F8%2F10349-01.jpg&f=1&nofb=1)<br>
+These are called **N-Channel MOSFETs**<br>
+Basically, they allow us to control a 12V signal with a 5V control signal. (Please don't kill me Electronic Engineers)<br>
+For a better explanation, look it up!<br>
+#### How does the arduino work?
+![arduino uno](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.stack.imgur.com%2FUc4fW.png&f=1&nofb=1)<br>
+The Arduino has a set of pins that can be used to control the intensity of a signal (PWM), this allows us to control different levels of red, green and blue in our RGB strip, and create a bunch of colours out of it. <br>
+
+## How to set up your Arduino
+All the wiring should be set up, you just need to install a simple program to actually edit the code.<br>
+Follow this link to get set up: https://www.arduino.cc/en/Guide
+
