@@ -26,15 +26,15 @@ void userFunction3() {
 }
 
 void loop() {
-  for (int i = 0; i < 100; i++) {
+  for (int i = 0; i < 10; i++) {
     userFunction1();
   }
 
-  for (int i = 0; i < 100; i++) {
+  for (int i = 0; i < 10; i++) {
     userFunction2();
   }
 
-  for (int i = 0; i < 100; i++) {
+  for (int i = 0; i < 10; i++) {
     userFunction3();
   }
 }
